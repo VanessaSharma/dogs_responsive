@@ -59,6 +59,15 @@ body {
   width: 90%;
 }
 
+.content-body li{
+  background-image:url("https://www.cani.it/img/d43bb601caf9399e77e032f25529a149/50.jpg");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 300px;
+  top: -20px;
+}
+
 h1 {
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -74,10 +83,10 @@ h1 {
 }
 
 h3 {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: bold;
   letter-spacing: 2px;
   margin: 0;
   text-transform: uppercase;
@@ -108,21 +117,9 @@ p {
   width: 200px;
 }
 
-.btn {
-  color: black;
-  border: 3px solid black;
-  border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  margin: 10px 0px;
-  padding: 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.btn:hover {
+/** include hover for each dog picture**/
+/*.btn:hover {
   background-color: #05A8AA;
   border: 1px solid #05A8AA;
   color: #FFF;
-}
+}*/
